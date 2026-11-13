@@ -13,7 +13,7 @@ official old-to-new section mappings) and supports:
 
 Full report: [REPORT.md](REPORT.md). All numbers: [results/RESULTS.md](results/RESULTS.md).
 
-**Live demo:** _link to be added after deployment_
+**Live demo:** https://sujal7508-nyaya-rag-app-cp4toc.streamlit.app
 
 **Headline:** 94.79% accuracy on the full ILDC test set of 1,517 cases (95% CI 93.7-95.9) vs 77.78% for the paper's best model and ~94% for human experts. Hybrid retrieval ranks the correct statute section first for 70% of curated questions (BM25 50%, dense 59%).
 

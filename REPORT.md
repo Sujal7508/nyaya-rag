@@ -3,7 +3,7 @@
 GenAI course project report · 13 November 2026
 
 **Code repository:** https://github.com/Sujal7508/nyaya-rag
-**Live demo:** linked from the repository README
+**Live demo:** https://sujal7508-nyaya-rag-app-cp4toc.streamlit.app
 **Reference paper:** Malik et al., *ILDC for CJPE: Indian Legal Documents Corpus for Court Judgment Prediction and Explanation*, ACL 2021.
 
 ## 1. Abstract
@@ -232,7 +232,7 @@ Future work: add High Court judgments and case names, retrieve precedents by leg
 ## 9. Repository, demo and reproduction
 
 - **Code:** https://github.com/Sujal7508/nyaya-rag
-- **Live demo:** the link is in the repository README. The hosted demo uses a reduced judgment index (5,000 recent cases) and the full statute index.
+- **Live demo:** https://sujal7508-nyaya-rag-app-cp4toc.streamlit.app . The hosted demo uses a reduced judgment index (5,000 recent cases) and the full statute index.
 - **Data sources:** the four public Hugging Face datasets listed in Section 4.
 
 To reproduce:
