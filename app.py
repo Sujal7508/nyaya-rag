@@ -19,12 +19,12 @@ def _gcp_secret():
     return None
 
 try:
-    if not os.environ.get("GOOGLE_APPLICATION_CREDENTIALS"):
-        _key = _gcp_secret()
-        if _key:
-            import json
-            f = tempfile.NamedTemporaryFile("w", suffix=".json", delete=False); json.dump(_key, f); f.close()
-            os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = f.name
+    _key = _gcp_secret()
+    if _key:   # always rewrite: an earlier run of this process may have left an unusable file behind
+        import json
+        _path = os.path.join(tempfile.gettempdir(), "nyaya_gcp_key.json")
+        with open(_path, "w") as f: json.dump(_key, f)
+        os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = _path
     for k in ("LLM_API_KEY", "LLM_PROVIDER", "LLM_MODEL"):
         if k in st.secrets: os.environ.setdefault(k, str(st.secrets[k]))
 except Exception as _e:
