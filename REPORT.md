@@ -151,7 +151,7 @@ Our retrieval-augmented system reaches 94.79% accuracy on the full test set of 1
 - **Robustness.** With the last 150 words of each case hidden, 40 of 40 sampled cases were still predicted correctly.
 - 7 of 3,034 model replies could not be parsed and are counted as wrong.
 
-![Accuracy on the ILDC test set](results/fig_cjpe.png)
+![Accuracy on the ILDC test set](results/fig_cjpe_paper.png)
 
 **Error analysis.** The errors we inspected were mostly cases where the outcome label is itself debatable: appeals that are formally dismissed while the Court grants directions or modifies the decree, and cases where several appeals are decided together. For example, in one test case the Court modified the High Court's decree on the distribution of a fund, which the system read as partial success for the appellant, while the gold label is rejected. The paper reports that its own expert annotators disagreed with the official label on 2 to 11% of cases for the same reason.
 
@@ -182,7 +182,7 @@ This experiment isolates the retriever. For each of the 56 statute questions we 
 
 Hybrid retrieval improves Hit@1 by 20 points over BM25 and 11 points over dense search, and MRR by 0.15 and 0.08. The two methods fail on different questions: BM25 misses paraphrased questions, dense search misses questions that hinge on an exact legal term, and fusion recovers most of both. When the official BNS, BNSS or BSA counterpart of the gold section is also accepted, hybrid Hit@1 is 0.821; many strict misses are the system returning the new-code equivalent first.
 
-![Statute retrieval](results/fig_retrieval.png)
+![Statute retrieval](results/fig_retrieval_paper.png)
 
 ### 6.4 End-to-end answer quality
 
