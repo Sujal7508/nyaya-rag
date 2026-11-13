@@ -1,0 +1,13 @@
+torch
+sentence-transformers
+bm25s
+PyStemmer
+rouge-score
+streamlit
+requests
+pandas
+pyarrow
+scikit-learn
+numpy
+matplotlib
+google-auth

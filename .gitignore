@@ -1,0 +1,16 @@
+llm_key.txt
+gcp_key.json
+project-*.json
+.venv/
+data/raw/
+data/index/
+data/processed/train.parquet
+data/processed/test.parquet
+data/processed/expert.parquet
+data/llm_cache.sqlite
+data/*.log
+__pycache__/
+*.log
+results/log_*.txt
+.DS_Store
+.streamlit/secrets.toml

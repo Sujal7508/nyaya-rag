@@ -1,0 +1,596 @@
+[
+ {
+  "id": "S01",
+  "type": "statute",
+  "query": "What is the punishment for murder in India?",
+  "gold_act": "Indian Penal Code, 1860",
+  "gold_sections": [
+   "302"
+  ]
+ },
+ {
+  "id": "S02",
+  "type": "statute",
+  "query": "How does the penal code define murder and its exceptions like grave and sudden provocation?",
+  "gold_act": "Indian Penal Code, 1860",
+  "gold_sections": [
+   "300"
+  ]
+ },
+ {
+  "id": "S03",
+  "type": "statute",
+  "query": "What is culpable homicide?",
+  "gold_act": "Indian Penal Code, 1860",
+  "gold_sections": [
+   "299"
+  ]
+ },
+ {
+  "id": "S04",
+  "type": "statute",
+  "query": "When are several persons liable for an act done in furtherance of a common intention?",
+  "gold_act": "Indian Penal Code, 1860",
+  "gold_sections": [
+   "34"
+  ]
+ },
+ {
+  "id": "S05",
+  "type": "statute",
+  "query": "What is the punishment for criminal conspiracy?",
+  "gold_act": "Indian Penal Code, 1860",
+  "gold_sections": [
+   "120B"
+  ]
+ },
+ {
+  "id": "S06",
+  "type": "statute",
+  "query": "How is theft defined in the penal code?",
+  "gold_act": "Indian Penal Code, 1860",
+  "gold_sections": [
+   "378"
+  ]
+ },
+ {
+  "id": "S07",
+  "type": "statute",
+  "query": "What punishment does a person get for cheating and dishonestly inducing delivery of property?",
+  "gold_act": "Indian Penal Code, 1860",
+  "gold_sections": [
+   "420"
+  ]
+ },
+ {
+  "id": "S08",
+  "type": "statute",
+  "query": "What amounts to defamation and what are its exceptions?",
+  "gold_act": "Indian Penal Code, 1860",
+  "gold_sections": [
+   "499"
+  ]
+ },
+ {
+  "id": "S09",
+  "type": "statute",
+  "query": "Which provision punishes a husband or his relatives for subjecting a married woman to cruelty?",
+  "gold_act": "Indian Penal Code, 1860",
+  "gold_sections": [
+   "498A"
+  ]
+ },
+ {
+  "id": "S10",
+  "type": "statute",
+  "query": "What is the punishment for causing death by a rash or negligent act?",
+  "gold_act": "Indian Penal Code, 1860",
+  "gold_sections": [
+   "304A"
+  ]
+ },
+ {
+  "id": "S11",
+  "type": "statute",
+  "query": "What is the punishment for attempt to murder?",
+  "gold_act": "Indian Penal Code, 1860",
+  "gold_sections": [
+   "307"
+  ]
+ },
+ {
+  "id": "S12",
+  "type": "statute",
+  "query": "When is every member of an unlawful assembly guilty of an offence committed in prosecution of the common object?",
+  "gold_act": "Indian Penal Code, 1860",
+  "gold_sections": [
+   "149"
+  ]
+ },
+ {
+  "id": "S13",
+  "type": "statute",
+  "query": "What is criminal breach of trust?",
+  "gold_act": "Indian Penal Code, 1860",
+  "gold_sections": [
+   "405"
+  ]
+ },
+ {
+  "id": "S14",
+  "type": "statute",
+  "query": "When does the right of private defence of the body extend to causing death?",
+  "gold_act": "Indian Penal Code, 1860",
+  "gold_sections": [
+   "100"
+  ]
+ },
+ {
+  "id": "S15",
+  "type": "statute",
+  "query": "What is the offence of assault or criminal force to a woman with intent to outrage her modesty?",
+  "gold_act": "Indian Penal Code, 1860",
+  "gold_sections": [
+   "354"
+  ]
+ },
+ {
+  "id": "S16",
+  "type": "statute",
+  "query": "How must the police record information about a cognizable offence (first information report)?",
+  "gold_act": "Code of Criminal Procedure Act, 1973",
+  "gold_sections": [
+   "154"
+  ]
+ },
+ {
+  "id": "S17",
+  "type": "statute",
+  "query": "Can a wife, children or parents claim monthly maintenance from a person who neglects them?",
+  "gold_act": "Code of Criminal Procedure Act, 1973",
+  "gold_sections": [
+   "125"
+  ]
+ },
+ {
+  "id": "S18",
+  "type": "statute",
+  "query": "How can a person who fears arrest get bail in advance (anticipatory bail)?",
+  "gold_act": "Code of Criminal Procedure Act, 1973",
+  "gold_sections": [
+   "438"
+  ]
+ },
+ {
+  "id": "S19",
+  "type": "statute",
+  "query": "What are the inherent powers of the High Court in criminal matters?",
+  "gold_act": "Code of Criminal Procedure Act, 1973",
+  "gold_sections": [
+   "482"
+  ]
+ },
+ {
+  "id": "S20",
+  "type": "statute",
+  "query": "When can the police arrest a person without a warrant?",
+  "gold_act": "Code of Criminal Procedure Act, 1973",
+  "gold_sections": [
+   "41"
+  ]
+ },
+ {
+  "id": "S21",
+  "type": "statute",
+  "query": "How long can an accused be kept in custody when investigation cannot be completed in twenty-four hours?",
+  "gold_act": "Code of Criminal Procedure Act, 1973",
+  "gold_sections": [
+   "167"
+  ]
+ },
+ {
+  "id": "S22",
+  "type": "statute",
+  "query": "How does a magistrate record a confession during investigation?",
+  "gold_act": "Code of Criminal Procedure Act, 1973",
+  "gold_sections": [
+   "164"
+  ]
+ },
+ {
+  "id": "S23",
+  "type": "statute",
+  "query": "What is the court's power to examine the accused to explain the evidence against him?",
+  "gold_act": "Code of Criminal Procedure Act, 1973",
+  "gold_sections": [
+   "313"
+  ]
+ },
+ {
+  "id": "S24",
+  "type": "statute",
+  "query": "Is a confession made to a police officer admissible against the accused?",
+  "gold_act": "Indian Evidence Act, 1872",
+  "gold_sections": [
+   "25"
+  ]
+ },
+ {
+  "id": "S25",
+  "type": "statute",
+  "query": "How much of the information given by an accused in police custody that leads to a discovery can be proved?",
+  "gold_act": "Indian Evidence Act, 1872",
+  "gold_sections": [
+   "27"
+  ]
+ },
+ {
+  "id": "S26",
+  "type": "statute",
+  "query": "When is the statement of a dead person about the cause of his death (dying declaration) relevant?",
+  "gold_act": "Indian Evidence Act, 1872",
+  "gold_sections": [
+   "32"
+  ]
+ },
+ {
+  "id": "S27",
+  "type": "statute",
+  "query": "When are opinions of experts relevant evidence?",
+  "gold_act": "Indian Evidence Act, 1872",
+  "gold_sections": [
+   "45"
+  ]
+ },
+ {
+  "id": "S28",
+  "type": "statute",
+  "query": "What are the conditions for admissibility of electronic records as evidence?",
+  "gold_act": "Indian Evidence Act, 1872",
+  "gold_sections": [
+   "65B"
+  ]
+ },
+ {
+  "id": "S29",
+  "type": "statute",
+  "query": "On whom does the burden of proof lie?",
+  "gold_act": "Indian Evidence Act, 1872",
+  "gold_sections": [
+   "101"
+  ]
+ },
+ {
+  "id": "S30",
+  "type": "statute",
+  "query": "Which article guarantees equality before the law?",
+  "gold_act": "Constitution of India, 1949",
+  "gold_sections": [
+   "14"
+  ]
+ },
+ {
+  "id": "S31",
+  "type": "statute",
+  "query": "Which fundamental right protects freedom of speech and expression, and what restrictions are allowed?",
+  "gold_act": "Constitution of India, 1949",
+  "gold_sections": [
+   "19"
+  ]
+ },
+ {
+  "id": "S32",
+  "type": "statute",
+  "query": "What does the Constitution say about protection of life and personal liberty?",
+  "gold_act": "Constitution of India, 1949",
+  "gold_sections": [
+   "21"
+  ]
+ },
+ {
+  "id": "S33",
+  "type": "statute",
+  "query": "Can a person move the Supreme Court directly to enforce fundamental rights?",
+  "gold_act": "Constitution of India, 1949",
+  "gold_sections": [
+   "32"
+  ]
+ },
+ {
+  "id": "S34",
+  "type": "statute",
+  "query": "What is the power of High Courts to issue writs?",
+  "gold_act": "Constitution of India, 1949",
+  "gold_sections": [
+   "226"
+  ]
+ },
+ {
+  "id": "S35",
+  "type": "statute",
+  "query": "Under which provision can the Supreme Court grant special leave to appeal?",
+  "gold_act": "Constitution of India, 1949",
+  "gold_sections": [
+   "136"
+  ]
+ },
+ {
+  "id": "S36",
+  "type": "statute",
+  "query": "Is the law declared by the Supreme Court binding on all courts in India?",
+  "gold_act": "Constitution of India, 1949",
+  "gold_sections": [
+   "141"
+  ]
+ },
+ {
+  "id": "S37",
+  "type": "statute",
+  "query": "Can a person be deprived of property without authority of law?",
+  "gold_act": "Constitution of India, 1949",
+  "gold_sections": [
+   "300A"
+  ]
+ },
+ {
+  "id": "S38",
+  "type": "statute",
+  "query": "What protection exists against double jeopardy and self-incrimination?",
+  "gold_act": "Constitution of India, 1949",
+  "gold_sections": [
+   "20"
+  ]
+ },
+ {
+  "id": "S39",
+  "type": "statute",
+  "query": "What is the right of children to free and compulsory education?",
+  "gold_act": "Constitution of India, 1949",
+  "gold_sections": [
+   "21A"
+  ]
+ },
+ {
+  "id": "S40",
+  "type": "statute",
+  "query": "How can Parliament amend the Constitution?",
+  "gold_act": "Constitution of India, 1949",
+  "gold_sections": [
+   "368"
+  ]
+ },
+ {
+  "id": "S41",
+  "type": "statute",
+  "query": "Which agreements are contracts under Indian contract law?",
+  "gold_act": "Indian Contract Act, 1872",
+  "gold_sections": [
+   "10"
+  ]
+ },
+ {
+  "id": "S42",
+  "type": "statute",
+  "query": "What compensation is payable for loss or damage caused by breach of contract?",
+  "gold_act": "Indian Contract Act, 1872",
+  "gold_sections": [
+   "73"
+  ]
+ },
+ {
+  "id": "S43",
+  "type": "statute",
+  "query": "Is an agreement in restraint of trade valid?",
+  "gold_act": "Indian Contract Act, 1872",
+  "gold_sections": [
+   "27"
+  ]
+ },
+ {
+  "id": "S44",
+  "type": "statute",
+  "query": "What happens to a contract when its performance becomes impossible (frustration)?",
+  "gold_act": "Indian Contract Act, 1872",
+  "gold_sections": [
+   "56"
+  ]
+ },
+ {
+  "id": "S45",
+  "type": "statute",
+  "query": "What is the offence when a cheque is dishonoured for insufficiency of funds?",
+  "gold_act": "Negotiable Instruments Act, 1881",
+  "gold_sections": [
+   "138"
+  ]
+ },
+ {
+  "id": "S46",
+  "type": "statute",
+  "query": "On what grounds can a Hindu spouse seek divorce?",
+  "gold_act": "Hindu Marriage Act, 1955",
+  "gold_sections": [
+   "13"
+  ]
+ },
+ {
+  "id": "S47",
+  "type": "statute",
+  "query": "How can a Hindu couple obtain divorce by mutual consent?",
+  "gold_act": "Hindu Marriage Act, 1955",
+  "gold_sections": [
+   "13B"
+  ]
+ },
+ {
+  "id": "S48",
+  "type": "statute",
+  "query": "How do victims of a road accident apply for compensation before the claims tribunal?",
+  "gold_act": "Motor Vehicles Act, 1988",
+  "gold_sections": [
+   "166"
+  ]
+ },
+ {
+  "id": "S49",
+  "type": "statute",
+  "query": "Can a court condone delay in filing an appeal if sufficient cause is shown?",
+  "gold_act": "Limitation Act, 1963",
+  "gold_sections": [
+   "5"
+  ]
+ },
+ {
+  "id": "S50",
+  "type": "statute",
+  "query": "On what grounds can an arbitral award be set aside by a court?",
+  "gold_act": "Arbitration and Conciliation Act, 1996",
+  "gold_sections": [
+   "34"
+  ]
+ },
+ {
+  "id": "S51",
+  "type": "statute",
+  "query": "What is res judicata?",
+  "gold_act": "Code of Civil Procedure, 1908",
+  "gold_sections": [
+   "11"
+  ]
+ },
+ {
+  "id": "S52",
+  "type": "statute",
+  "query": "What are the inherent powers of a civil court?",
+  "gold_act": "Code of Civil Procedure, 1908",
+  "gold_sections": [
+   "151"
+  ]
+ },
+ {
+  "id": "S53",
+  "type": "statute",
+  "query": "What information is exempt from disclosure under the right to information law?",
+  "gold_act": "Right to Information Act, 2005",
+  "gold_sections": [
+   "8"
+  ]
+ },
+ {
+  "id": "S54",
+  "type": "statute",
+  "query": "How is domestic violence defined?",
+  "gold_act": "Protection of Women from Domestic Violence Act, 2005",
+  "gold_sections": [
+   "3"
+  ]
+ },
+ {
+  "id": "S55",
+  "type": "statute",
+  "query": "What is the doctrine of part performance in property transfer?",
+  "gold_act": "Transfer of Property Act, 1882",
+  "gold_sections": [
+   "53A"
+  ]
+ },
+ {
+  "id": "S56",
+  "type": "statute",
+  "query": "What is the punishment for murder under the new Bharatiya Nyaya Sanhita?",
+  "gold_act": "Bharatiya Nyaya Sanhita, 2023",
+  "gold_sections": [
+   "103"
+  ]
+ },
+ {
+  "id": "C01",
+  "type": "case_law",
+  "query": "When does the Supreme Court interfere with concurrent findings of fact by the courts below?"
+ },
+ {
+  "id": "C02",
+  "type": "case_law",
+  "query": "How has the Supreme Court treated a dying declaration as the sole basis for conviction?"
+ },
+ {
+  "id": "C03",
+  "type": "case_law",
+  "query": "On what grounds does the Supreme Court quash criminal proceedings as an abuse of process?"
+ },
+ {
+  "id": "C04",
+  "type": "case_law",
+  "query": "When is a termination of a workman treated as illegal retrenchment under industrial law?"
+ },
+ {
+  "id": "C05",
+  "type": "case_law",
+  "query": "How do courts assess circumstantial evidence in a murder trial?"
+ },
+ {
+  "id": "C06",
+  "type": "case_law",
+  "query": "What principles govern the grant of compensation for land acquisition and its enhancement?"
+ },
+ {
+  "id": "C07",
+  "type": "case_law",
+  "query": "When can a court order specific performance of an agreement to sell immovable property?"
+ },
+ {
+  "id": "C08",
+  "type": "case_law",
+  "query": "How does the Supreme Court approach delay and laches in writ petitions?"
+ },
+ {
+  "id": "C09",
+  "type": "hybrid",
+  "query": "What is the law on anticipatory bail and what factors has the Supreme Court said courts should consider?"
+ },
+ {
+  "id": "C10",
+  "type": "hybrid",
+  "query": "What does Article 14 guarantee and how has the Supreme Court applied the test of reasonable classification?"
+ },
+ {
+  "id": "C11",
+  "type": "hybrid",
+  "query": "What is the offence of cheque dishonour and what presumption operates against the drawer according to the courts?"
+ },
+ {
+  "id": "C12",
+  "type": "hybrid",
+  "query": "What is the scope of the High Court's inherent power to quash an FIR, according to statute and the Supreme Court?"
+ },
+ {
+  "id": "C13",
+  "type": "hybrid",
+  "query": "Explain Section 302 IPC and when the Supreme Court has converted a murder conviction to culpable homicide not amounting to murder."
+ },
+ {
+  "id": "C14",
+  "type": "hybrid",
+  "query": "What does Section 27 of the Evidence Act allow, and how have courts limited its use?"
+ },
+ {
+  "id": "C15",
+  "type": "statute_cite",
+  "query": "What does Section 420 IPC say and what is the corresponding section in the Bharatiya Nyaya Sanhita?"
+ },
+ {
+  "id": "C16",
+  "type": "statute_cite",
+  "query": "What is Article 21 of the Constitution?"
+ },
+ {
+  "id": "C17",
+  "type": "out_of_scope",
+  "query": "What is the best recipe for butter chicken?"
+ },
+ {
+  "id": "C18",
+  "type": "out_of_scope",
+  "query": "Explain the US First Amendment."
+ }
+]
