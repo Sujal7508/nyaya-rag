@@ -28,7 +28,11 @@ try:
     for k in ("LLM_API_KEY", "LLM_PROVIDER", "LLM_MODEL"):
         if k in st.secrets: os.environ.setdefault(k, str(st.secrets[k]))
 except Exception as _e:
-    st.warning(f"Could not read the LLM credentials from secrets ({type(_e).__name__}). Check the Secrets box in the app settings.")
+    os.environ.pop("GOOGLE_APPLICATION_CREDENTIALS", None)
+    st.error("The service-account key in this app's Secrets is not valid JSON, so the LLM cannot be reached. "
+             "In Manage app > Settings > Secrets, replace everything with the full contents of .streamlit/secrets.toml "
+             "(the complete key file between the two triple-quote lines), then save.")
+    st.stop()
 
 st.set_page_config(page_title="Nyaya-RAG: Indian Legal Research Agent", layout="wide")
 
