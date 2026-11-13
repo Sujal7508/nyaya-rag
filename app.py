@@ -6,14 +6,29 @@ import os, tempfile
 import streamlit as st
 
 # hosted demo: credentials come from Streamlit secrets instead of local files
+def _gcp_secret():
+    """Service-account key from Streamlit secrets: a JSON string (GCP_SERVICE_ACCOUNT_JSON) or a TOML table ([gcp_service_account])."""
+    import json
+    for name in ("GCP_SERVICE_ACCOUNT_JSON", "gcp_service_account"):
+        if name not in st.secrets: continue
+        v = st.secrets[name]
+        if not isinstance(v, str): return dict(v)
+        v = v.strip()
+        try: return json.loads(v)
+        except Exception: return json.loads(v, strict=False)   # tolerate line breaks pasted inside the private key
+    return None
+
 try:
-    if "GCP_SERVICE_ACCOUNT_JSON" in st.secrets and not os.environ.get("GOOGLE_APPLICATION_CREDENTIALS"):
-        f = tempfile.NamedTemporaryFile("w", suffix=".json", delete=False); f.write(st.secrets["GCP_SERVICE_ACCOUNT_JSON"]); f.close()
-        os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = f.name
+    if not os.environ.get("GOOGLE_APPLICATION_CREDENTIALS"):
+        _key = _gcp_secret()
+        if _key:
+            import json
+            f = tempfile.NamedTemporaryFile("w", suffix=".json", delete=False); json.dump(_key, f); f.close()
+            os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = f.name
     for k in ("LLM_API_KEY", "LLM_PROVIDER", "LLM_MODEL"):
         if k in st.secrets: os.environ.setdefault(k, str(st.secrets[k]))
-except Exception:
-    pass
+except Exception as _e:
+    st.warning(f"Could not read the LLM credentials from secrets ({type(_e).__name__}). Check the Secrets box in the app settings.")
 
 st.set_page_config(page_title="Nyaya-RAG: Indian Legal Research Agent", layout="wide")
 
